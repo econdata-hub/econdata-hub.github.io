@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Stata 计量笔记 · 配套数据下载</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, "PingFang SC", "Microsoft YaHei", "Segoe UI", sans-serif;
+    color: #222; background: #fff; line-height: 1.7;
+    max-width: 880px; margin: 0 auto; padding: 32px 18px 48px;
+  }
+  h1 { font-size: 1.55rem; margin-bottom: 6px; }
+  .sub { color: #666; font-size: 0.95rem; margin-bottom: 22px; }
+  .howto {
+    background: #f6f8fa; border: 1px solid #e4e8ec; border-radius: 8px;
+    padding: 14px 18px; margin-bottom: 26px; font-size: 0.95rem;
+  }
+  .howto b { font-weight: 600; }
+  table { width: 100%; border-collapse: collapse; font-size: 0.95rem; }
+  th, td { border-bottom: 1px solid #e8e8e8; padding: 10px 8px; text-align: left; vertical-align: top; }
+  th { background: #fafafa; font-weight: 600; white-space: nowrap; }
+  td.num { white-space: nowrap; color: #555; }
+  td.data-cell { font-size: 0.9rem; }
+  a.btn {
+    display: inline-block; padding: 4px 12px; border-radius: 6px;
+    background: #2463eb; color: #fff !important; text-decoration: none;
+    font-size: 0.88rem; white-space: nowrap;
+  }
+  a.btn.ghost { background: #fff; color: #2463eb !important; border: 1px solid #2463eb; }
+  .bundle {
+    margin: 26px 0 34px; padding: 16px 18px;
+    border: 1px dashed #bbb; border-radius: 8px; font-size: 0.95rem;
+  }
+  .disclaimer {
+    background: #fdf6e3; border: 1px solid #e8d9a0; border-radius: 8px;
+    padding: 14px 18px; font-size: 0.9rem; color: #6b5a1e;
+  }
+  .disclaimer b { font-weight: 600; }
+  .footer { margin-top: 26px; color: #999; font-size: 0.82rem; text-align: center; }
+</style>
+</head>
+<body>
+  <h1>Stata 计量笔记 · 配套数据下载</h1>
+  <p class="sub">小红书「Stata 进阶」系列（07–17）配套数据与代码</p>
+
+  <div class="howto">
+    <b>使用方法：</b>① 下载对应帖子的 <b>数据（.dta）</b>与<b>代码（.do）</b>，放入同一个文件夹；
+    ② 在 Stata 中打开 .do 文件运行（或命令窗口执行 <b>do 文件名.do</b>），
+    即可复现帖子中的全部结果。建议使用 Stata 14 及以上版本。
+  </div>
+
+  <table>
+    <thead>
+      <tr><th>篇目</th><th>主题</th><th>数据集</th><th>下载</th></tr>
+    </thead>
+    <tbody>
+      <tr><td class="num">07</td><td>虚拟变量</td><td class="data-cell">grilic.dta（15.6 KB）</td>
+        <td><a class="btn" href="data/grilic.dta">数据</a> <a class="btn ghost" href="code/07_dummy.do">代码</a></td></tr>
+      <tr><td class="num">08</td><td>对数模型与弹性</td><td class="data-cell">nerlove.dta（7.1 KB）</td>
+        <td><a class="btn" href="data/nerlove.dta">数据</a> <a class="btn ghost" href="code/08_log.do">代码</a></td></tr>
+      <tr><td class="num">09</td><td>受约束回归</td><td class="data-cell">nerlove.dta（7.1 KB）</td>
+        <td><a class="btn" href="data/nerlove.dta">数据</a> <a class="btn ghost" href="code/09_test.do">代码</a></td></tr>
+      <tr><td class="num">10</td><td>面板数据固定效应</td><td class="data-cell">munnell.dta（79.4 KB）</td>
+        <td><a class="btn" href="data/munnell.dta">数据</a> <a class="btn ghost" href="code/10_panel_fe.do">代码</a></td></tr>
+      <tr><td class="num">11</td><td>Hausman 检验</td><td class="data-cell">munnell.dta（79.4 KB）</td>
+        <td><a class="btn" href="data/munnell.dta">数据</a> <a class="btn ghost" href="code/11_panel_re.do">代码</a></td></tr>
+      <tr><td class="num">12</td><td>二值选择模型</td><td class="data-cell">titanic.dta（2.1 KB）</td>
+        <td><a class="btn" href="data/titanic.dta">数据</a> <a class="btn ghost" href="code/12_logit.do">代码</a></td></tr>
+      <tr><td class="num">13</td><td>边际效应与预测</td><td class="data-cell">titanic.dta（2.1 KB）</td>
+        <td><a class="btn" href="data/titanic.dta">数据</a> <a class="btn ghost" href="code/13_margins.do">代码</a></td></tr>
+      <tr><td class="num">14</td><td>自相关检验</td><td class="data-cell">icecream.dta（2.0 KB）</td>
+        <td><a class="btn" href="data/icecream.dta">数据</a> <a class="btn ghost" href="code/14_autocorr.do">代码</a></td></tr>
+      <tr><td class="num">15</td><td>单位根检验</td><td class="data-cell">gdp_china.dta（1.8 KB）</td>
+        <td><a class="btn" href="data/gdp_china.dta">数据</a> <a class="btn ghost" href="code/15_adf.do">代码</a></td></tr>
+      <tr><td class="num">16</td><td>协整与 ECM</td><td class="data-cell">consumption.dta（1.3 KB）</td>
+        <td><a class="btn" href="data/consumption.dta">数据</a> <a class="btn ghost" href="code/16_ecm.do">代码</a></td></tr>
+      <tr><td class="num">17</td><td>格兰杰因果检验</td><td class="data-cell">phillips.dta（3.2 KB）</td>
+        <td><a class="btn" href="data/phillips.dta">数据</a> <a class="btn ghost" href="code/17_granger.do">代码</a></td></tr>
+    </tbody>
+  </table>
+
+  <div class="bundle">
+    全部数据与代码（8 个数据集 + 11 个 do 文件，85 KB）：
+    <a class="btn" href="bundle.zip" style="margin-left:8px;">打包下载</a>
+  </div>
+
+  <div class="disclaimer">
+    <b>版权声明</b><br>
+    本站数据与代码整理自网络公开渠道（配套陈强《计量经济学及 Stata 应用》教学数据），
+    仅供个人学习与教学交流使用，<b>不用于任何商业用途</b>。
+    若内容涉及版权问题，请通过小红书私信联系博主，将及时删除。
+  </div>
+
+  <p class="footer">Stata 进阶系列 07–17 · 代码均已在 Stata 18 实际运行验证</p>
+</body>
+</html>
